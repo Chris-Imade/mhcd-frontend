@@ -1,0 +1,9 @@
+.inputShadow {
+    box-shadow: -7px 7px 0px 0px #000000;
+}
+.button {
+    box-shadow: -7px 7px 0px 0px #ffffff;
+}
+.formContainer {
+    box-shadow: -7px 7px 0px 0px #AC2F0B;
+}
