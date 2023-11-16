@@ -3,6 +3,7 @@ import React from 'react';
 import Book from "../../images/book.png";
 // @ts-ignore
 import DropDown from "../../images/dd.png";
+import { Link } from 'react-router-dom';
 
 const NavBottom = () => {
   return (
@@ -23,7 +24,9 @@ const NavBottom = () => {
                 </ul>
             </div>
         </div>
-        <button className='text-white bg-[#EF6330] text-[18.87px] py-[5px] px-[10px] transition-all duration-500 ease-in-out hover:bg-white hover:border-[1px] border-solid border-[#EF6330] hover:text-[#EF6330]'>Join Now</button>
+        <button className='text-white bg-[#EF6330] text-[18.87px] py-[5px] px-[10px] transition-all duration-500 ease-in-out hover:bg-white hover:border-[1px] border-solid border-[#EF6330] hover:text-[#EF6330]'>
+            <Link to={'/register'}>Join Now</Link>
+        </button>
     </div>
   )
 }

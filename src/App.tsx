@@ -9,6 +9,12 @@ import SignUp from "./components/SignUp/SignUp";
 import Partners from "./components/Partners/Partners";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Footer from "./Footer/Footer";
+import Register from "./Screens/Auth/Register";
+import Login from "./Screens/Auth/Login";
+import Dashboard from "./Screens/Dashboard/Dashboard";
+import { MemoryRouter as Router, Routes, Route } from 'react-router-dom';
+import Root from "./components/Root";
+
 
 function App() {
   const [showLoader, setShowLoader] = useState(true);
@@ -22,18 +28,13 @@ function App() {
   }, [])
 
   return (
-    <div className="transition-all duration-500 ease-in-out">
-      {showLoader && <Loader />}
-      <NavigationContainer />
-      <Hero />
-      <AboutUs />
-      <Subjects />
-      <Course/>
-      <SignUp />
-      <Partners />
-      <Testimonials />
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Root />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+      </Routes>
+    </Router>
   );
 }
 

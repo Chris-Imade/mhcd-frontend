@@ -13,6 +13,7 @@ import Time from "../images/time.png";
 interface CoursesCard {
     item: {
         title: string;
+        image: string;
         price: string;
         enrolled: number;
         duration: string;
@@ -25,7 +26,9 @@ interface CoursesCard {
 const CoursesCard: React.FC<CoursesCard> = ({ item }) => {
   return (
     <div className={`w-[317px] bg-[#F2F1F8] mx-[21px] hover:scale-105 hover:cursor-pointer transition-all duration-500 ease-in-out mb-8 ${styles.shadow}`}>
-        <div className='w-[317px] h-[165px] bg-[#A6A6A6]'></div>
+        <div className=''>
+            <img src={item.image} alt={item.title} className='w-[317px] h-[165px]' />
+        </div>
         <div className='mt-[16px] mx-[21px]'>
             <div className='flex justify-between mb-[18px]'>
                 <div className='flex items-center'>
