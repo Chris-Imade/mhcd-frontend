@@ -3,8 +3,12 @@ import React from 'react';
 import Tick from "../../images/tick.png";
 // @ts-ignore
 import styles from "./SignUp.module.css";
+import { Link } from 'react-router-dom';
+
 
 const SignUp = () => {
+
+
   return (
     <div className='bg-[#120503] w-[100vw] py-[115px] lg:px-[165px] flex-col lg:flex-row flex justify-between pl-8'>
         <div className=''>
@@ -40,7 +44,7 @@ const SignUp = () => {
                     <option id='course' value="Artificial Intelligence">Artificial Intelligence</option>
                     <option id='course' value="UI/UX Design">UI/UX Design</option>
                 </select>
-                <button className={`my-6 bg-[#44425A] w-[353px] hover:bg-black transition-all duration-500 ease-in-out h-[50px] text-white text-[17px] ${styles.button} mb-8`}>Sign Up Now</button>
+                <Link to={'/register'} className={`my-6 bg-[#44425A] w-[353px] hover:bg-black transition-all duration-500 ease-in-out h-[50px] text-white text-[17px] flex justify-center items-center ${styles.button} mb-8`}>Sign Up Now</Link>
             </div>
         </div>
     </div>

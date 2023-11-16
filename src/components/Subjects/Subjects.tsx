@@ -50,7 +50,7 @@ const Subjects = () => {
     ]
 
   return (
-    <div className='bg-[#F7F8FA] py-[57px] px-[121px] transition-all duration-500 ease-in-out'>
+    <div id='subjects' className='bg-[#F7F8FA] py-[57px] px-[121px] transition-all duration-500 ease-in-out'>
         <p className='text-[#EF6330] text-[22px] font-medium text-center uppercase' style={{ letterSpacing: "6px" }}>subjects</p>
         <h3 className='text-[#46445C] mt-[14px] font-semibold text-[28.74px] text-center'>Explore Top Subjects</h3>
 

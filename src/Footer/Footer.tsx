@@ -13,7 +13,7 @@ import styles from './Footer.module.css';
 const Footer = () => {
   return (
     <>
-        <div className='bg-[#120503] w-[100vw] py-[91px] px-12 flex flex-col'>
+        <div id='footer' className='bg-[#120503] w-[100vw] py-[91px] px-12 flex flex-col'>
             <div className='flex flex-col lg:flex-row justify-between'>
                 <div>
                     <p className='text-[#EF6330] text-[22px] font-medium uppercase' style={{ letterSpacing: "6px" }}>get in touch</p>

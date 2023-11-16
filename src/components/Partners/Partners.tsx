@@ -22,7 +22,7 @@ const Partners = () => {
   ]
 
   return (
-    <div className='my-[66px]'>
+    <div id='partners' className='my-[66px]'>
         <p className='text-[#EF6330] text-[22px] font-medium text-center uppercase' style={{ letterSpacing: "6px" }}>partners</p>
         <h3 className='text-[#46445C] mt-[14px] font-semibold text-[28.74px] text-center'>Meet Our Partners</h3>
 
