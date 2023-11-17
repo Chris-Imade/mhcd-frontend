@@ -12,7 +12,7 @@ import Hamburger from '../../images/hamburger.png';
 // @ts-ignore
 import Close from '../../images/close.png';
 
-const NavTop: React.FC = () => {
+const NavTop = () => {
     const [menuActive, setMenuActive] = useState(false);
   return (
     <div className='flex flex-col lg:flex-row justify-between py-[18px] border-b-[1px] border-solid border-slate-300 px-[62px] transition-all duration-500 ease-in-out items-center'>

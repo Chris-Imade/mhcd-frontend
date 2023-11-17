@@ -1,16 +1,10 @@
 import React from 'react';
-// @ts-ignore
 import Course1 from '../../images/courses-1.png';
-// @ts-ignore
 import Course2 from '../../images/courses-2.png';
-// @ts-ignore
 import Course3 from '../../images/courses-3.png';
-// @ts-ignore
 import Course4 from '../../images/courses-4.png';
-// @ts-ignore
 import Course5 from '../../images/courses-5.png';
 import SubjectCard from './SubjectCard';
-// @ts-ignore
 
 const Subjects = () => {
 

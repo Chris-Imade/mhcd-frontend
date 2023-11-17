@@ -1,13 +1,8 @@
 import React from 'react';
-// @ts-ignore
 import Location from '../images/location-1.png';
-// @ts-ignore
 import Phone from '../images/phone-1.png';
-// @ts-ignore
 import Mail from '../images/mail-1.png';
-// @ts-ignore
 import Right from '../images/right.png';
-// @ts-ignore
 import styles from './Footer.module.css';
 
 const Footer = () => {

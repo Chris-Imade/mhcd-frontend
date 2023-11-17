@@ -1,29 +1,12 @@
 import React from 'react';
-// @ts-ignore
 import styles from "./Course.module.css";
-// @ts-ignore
 import Group from "../images/group.png";
-// @ts-ignore
 import Star from "../images/star.png";
-// @ts-ignore
 import Time from "../images/time.png";
 
 
 
-interface CoursesCard {
-    item: {
-        title: string;
-        image: string;
-        price: string;
-        enrolled: number;
-        duration: string;
-        rating: {
-            star: string;
-            count: number;
-        }
-    }
-}
-const CoursesCard: React.FC<CoursesCard> = ({ item }) => {
+const CoursesCard = ({ item }) => {
   return (
     <div className={`w-[317px] bg-[#F2F1F8] mx-[21px] hover:scale-105 hover:cursor-pointer transition-all duration-500 ease-in-out mb-8 ${styles.shadow}`}>
         <div className=''>

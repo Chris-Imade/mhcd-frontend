@@ -1,11 +1,7 @@
 import React from 'react';
-// @ts-ignore
 import ProfileImg from '../../images/Profile.png';
-// @ts-ignore
 import Mail from '../../images/tabler_mail.png';
-// @ts-ignore
 import Phone from '../../images/phone-line.png';
-// @ts-ignore
 import Person from '../../images/md_person.png';
 
 const Profile = () => {

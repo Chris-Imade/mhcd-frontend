@@ -8,12 +8,12 @@ import { REACT_APP_BACKEND_BASE_URL } from "../../config";
 
 const Register = () => {
   const [loading, setLoading] = useState(false);
-  const [error, setError] = useState<any>(null);
+  const [error, setError] = useState(null);
   const [msg,setMsg] = useState('');
-  const [name, setName] = useState<string>('');
-  const [email, setEmail] = useState<string>('');
-  const [course, setCourse] = useState<string>('');
-  const [password, setPassword] = useState<string>('');
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [course, setCourse] = useState('');
+  const [password, setPassword] = useState('');
 
   const navigate = useNavigate();
 

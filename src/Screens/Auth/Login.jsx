@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-// @ts-ignore
 import styles from './Styles.module.css';
-// @ts-ignore
 import AuthLogo from '../../images/auth-logo.png';
 import { Link, useNavigate } from 'react-router-dom';
 import { REACT_APP_BACKEND_BASE_URL } from '../../config';
@@ -9,10 +7,10 @@ import { REACT_APP_BACKEND_BASE_URL } from '../../config';
 const Login = () => {
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
-  const [error, setError] = useState<null | any>(null);
-  const [username, setUserName] = useState<string>('');
-  const [password, setPassword] = useState<string>('');
-  const [msg, setMsg] = useState<string>('');
+  const [error, setError] = useState(null);
+  const [username, setUserName] = useState('');
+  const [password, setPassword] = useState('');
+  const [msg, setMsg] = useState('');
 
   const handleLogin = async () => {
     try {

@@ -1,9 +1,8 @@
 import React from 'react';
-// @ts-ignore
 import PartnerImg from "../../images/partner-img.png";
 
 const Partners = () => {
-  const partners: { image: string }[] = [
+  const partners = [
     {
       image: PartnerImg
     },

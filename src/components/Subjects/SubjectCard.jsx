@@ -1,13 +1,7 @@
 import React, { useState } from 'react';
 
-interface SubjectProp {
-    item: {
-        title: string;
-        image: string;
-    }
-}
 
-const SubjectCard:React.FC<SubjectProp> = ({ item }) => {
+const SubjectCard = ({ item }) => {
     const [hovering, setHovering] = useState(false);
 
   return (

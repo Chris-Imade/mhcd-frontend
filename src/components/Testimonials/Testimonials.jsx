@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-// @ts-ignore
 import Quote from "../../images/quote.png";
-// @ts-ignore
 import styles from "./Testimonials.module.css";
 
 const Testimonials = () => {

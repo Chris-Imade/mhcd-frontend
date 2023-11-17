@@ -3,24 +3,17 @@ import React, { useState } from 'react';
 import HeaderImg1 from "../images/header-2.png";
 // @ts-ignore
 import RightControl from "../images/right-control.png";
-// @ts-ignore
 import LeftControl from "../images/left-control.png";
-// @ts-ignore
 import HeaderTxt from "../images/header-txt.png";
-// @ts-ignore
 import styles from "./Hero.module.css";
-// @ts-ignore
 import Bg1 from '../images/bg-1.jpg';
-// @ts-ignore
 import Bg2 from '../images/bg-2.jpg';
-// @ts-ignore
 import HeaderTxt2 from '../images/header-txt2.png';
-// @ts-ignore
 import HeaderTxt3 from '../images/headerTxt-3.png';
 import { Link } from 'react-router-dom';
 
 
-const Hero: React.FC = () => {
+const Hero = () => {
     const [index, setIndex] = useState(0);
 
     const carouselItems = [

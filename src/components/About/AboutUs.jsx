@@ -1,11 +1,9 @@
 import React from 'react';
-// @ts-ignore
 import styles from './About.module.css';
-// @ts-ignore
 import AboutImg from '../../images/about-us.png';
 import { Link } from 'react-router-dom';
 
-const AboutUs: React.FC = () => {
+const AboutUs = () => {
   return (
     <div id='about' className='w-[100vw] lg:h-[752px] lg:py-[136px] py-[96px] flex-col lg:flex-row flex justify-center items-center'>
         <div className=''>

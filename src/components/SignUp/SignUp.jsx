@@ -1,7 +1,5 @@
 import React from 'react';
-// @ts-ignore
 import Tick from "../../images/tick.png";
-// @ts-ignore
 import styles from "./SignUp.module.css";
 import { Link } from 'react-router-dom';
 

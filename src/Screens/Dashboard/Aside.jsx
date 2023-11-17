@@ -1,15 +1,9 @@
 import React from 'react';
-// @ts-ignore
 import DashboardLogo from '../../images/dashboard-logo.png';
-// @ts-ignore
 import DashboardLayout from '../../images/dh-layout.png';
-// @ts-ignore
 import Book from "../../images/clarity_book-line.png";
-// @ts-ignore
 import Edit from "../../images/ep_edit.png";
-// @ts-ignore
 import Certificate from "../../images/ph_certificate.png";
-// @ts-ignore
 
 const Aside = () => {
   return (

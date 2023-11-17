@@ -1,11 +1,7 @@
 import React from 'react';
-// @ts-ignore
 import styles from './Main.module.css';
-// @ts-ignore
 import Eclipse from '../../images/eclipse.png';
-// @ts-ignore
 import Folder from '../../images/folder.png';
-// @ts-ignore
 import Angle from '../../images/angle.png';
 
 const Main = () => {
