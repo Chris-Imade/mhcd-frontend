@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import Loader from "./components/Loader";
-import NavigationContainer from "./components/Nav/NavigationContainer";
 import Dashboard from "./Screens/Dashboard/Dashboard";
 import { MemoryRouter as Router, Routes, Route } from 'react-router-dom';
 import Root from "./components/Root";
