@@ -30,8 +30,8 @@ const CoursesCard = ({ item }) => {
                 <hr className='w-[317px] ml-[-1.35rem]' />
                 <div className='flex justify-between my-[16px]'>
                     <div className='flex items-center'>
-                        <img width={16.82} height={13.67} src={Group} alt="Group" />
-                        <h1 className='ml-2 text-[10px]'>{item.enrolled} Students</h1>
+                        <img width={16.82} height={13.67} src={Star} alt="Group" />
+                        <h1 className='ml-2 text-[10px]'>{item.rating.star} ({item.rating.count})</h1>
                     </div>
                     <div className='flex items-center'>
                         <img width={16.82} height={13.67} src={Time} alt="Time" />

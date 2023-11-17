@@ -9,7 +9,6 @@ import { REACT_APP_BACKEND_BASE_URL } from "../../config";
 const Register = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  const [msg,setMsg] = useState('');
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [course, setCourse] = useState('');
@@ -35,7 +34,7 @@ const Register = () => {
       setLoading(true);
 
       const response = await fetch(
-        "http://localhost:8000/api/v1/auth/register/",
+        `${REACT_APP_BACKEND_BASE_URL}/api/v1/auth/register/`,
         {
           method: "POST",
           headers: {

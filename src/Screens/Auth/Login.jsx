@@ -78,6 +78,8 @@ const Login = () => {
             </div> */}
             {/* <a  href={REACT_APP_BACKEND_BASE_URL + '/api/v1/auth/google'} className={`my-6 bg-white lg:w-[448.19px] hover:bg-black hover:text-white transition-all duration-500 ease-in-out h-[50px] text-black border-[1px] border-black text-[17px] w-full flex items-center justify-center ${styles.button} mb-8`}>Google</a> */}
             <p className=''>Don't have an account? <Link to={'/register'} className='text-[#0F1FB5]'>Sign Up</Link></p>
+            {error && <p className="bg-orange-400 text-white text-[14px] font-medium p-1 rounded-md">Info: {error}</p>}
+            {msg && <p className="bg-green-400 text-white text-[14px] font-medium p-1 rounded-md">Info: {msg}</p>}
         </div>
     </div>
   )

@@ -2,7 +2,6 @@ import React from 'react';
 // @ts-ignore
 import Book from "../../images/book.png";
 // @ts-ignore
-import DropDown from "../../images/dd.png";
 import { Link } from 'react-router-dom';
 
 const NavBottom = () => {

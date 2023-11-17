@@ -71,10 +71,10 @@ const Footer = () => {
                 </div>
                 <div>
                     <ul className='flex'>
-                        <li className='text-white text-[14px] mx-3'><a href="#">Privacy</a></li>
-                        <li className='text-white text-[14px] mx-3'><a href="#">Terms</a></li>
-                        <li className='text-white text-[14px] mx-3'><a href="#">FAQs</a></li>
-                        <li className='text-white text-[14px] mx-3'><a href="#">Help</a></li>
+                        <li className='text-white text-[14px] mx-3'><a href="#home">Privacy</a></li>
+                        <li className='text-white text-[14px] mx-3'><a href="#home">Terms</a></li>
+                        <li className='text-white text-[14px] mx-3'><a href="#home">FAQs</a></li>
+                        <li className='text-white text-[14px] mx-3'><a href="#home">Help</a></li>
                     </ul>
                 </div>
             </div>
