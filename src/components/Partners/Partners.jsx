@@ -4,7 +4,6 @@ import Partner2 from "../../images/partner-1.jpeg";
 import Partner3 from "../../images/partner-2.jpeg";
 import Partner4 from "../../images/partner-3.jpeg";
 import Partner5 from "../../images/partner-4.jpeg";
-import style from './Partners.module.css';
 
 const Partners = () => {
   const partners = [
