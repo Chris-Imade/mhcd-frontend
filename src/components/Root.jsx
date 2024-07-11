@@ -8,6 +8,7 @@ import Partners from './Partners/Partners';
 import Testimonials from './Testimonials/Testimonials';
 import Footer from '../Footer/Footer';
 import NavigationContainer from './Nav/NavigationContainer';
+import Projects from './Projects/Projects';
 
 const Root = () => {
   return (
@@ -16,6 +17,7 @@ const Root = () => {
         <Hero />
         <AboutUs />
         <Subjects />
+        <Projects />
         <Course />
         <SignUp />
         <Partners />

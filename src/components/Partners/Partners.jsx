@@ -1,5 +1,10 @@
-import React from 'react';
+import React, { memo } from 'react';
 import PartnerImg from "../../images/partner-img.png";
+import Partner2 from "../../images/partner-1.jpeg";
+import Partner3 from "../../images/partner-2.jpeg";
+import Partner4 from "../../images/partner-3.jpeg";
+import Partner5 from "../../images/partner-4.jpeg";
+import style from './Partners.module.css';
 
 const Partners = () => {
   const partners = [
@@ -7,16 +12,16 @@ const Partners = () => {
       image: PartnerImg
     },
     {
-      image: PartnerImg
+      image: Partner2
     },
     {
-      image: PartnerImg
+      image: Partner3
     },
     {
-      image: PartnerImg
+      image: Partner4
     },
     {
-      image: PartnerImg
+      image: Partner5
     },
   ]
 
@@ -27,11 +32,13 @@ const Partners = () => {
 
         <div className='px-[129px] flex flex-wrap justify-center items-center mt-24'>
           {partners.map((item, index) => (
-            <img className='mx-4' key={index} width={192.24} height={173.61} src={item.image} alt="item" />
+            <div className={`inline-block relative`}>
+              <img style={{ transition: 'filter 0.3s ease' }} className={`mx-4`} key={index} width={192.24} height={173.61} src={item.image} alt="item" />
+            </div>
           ))}
         </div>
     </div>
   )
 }
 
-export default Partners;
+export default memo(Partners);
