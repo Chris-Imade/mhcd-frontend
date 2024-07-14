@@ -3,7 +3,6 @@ import { useState, useEffect, useRef } from "react";
 import Project from "./components/projects/Project";
 import { motion } from "framer-motion";
 import gsap from "gsap";
-import RoundedBtn from "./components/AnimationCombo/RoundedButton/RoundedBtn";
 import DCE from "../../images/DCE.jpeg";
 import CAR from "../../images/CAR.jpeg";
 import CDT from "../../images/CDT.jpeg";
@@ -163,7 +162,7 @@ const Projects = () => {
                     src={src}
                     width={300}
                     height={0}
-                    alt="image"
+                    alt="modal pic"
                   />
                 </div>
               );

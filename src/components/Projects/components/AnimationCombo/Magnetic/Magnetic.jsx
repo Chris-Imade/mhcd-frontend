@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, ReactNode, RefObject } from 'react';
+import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 
 
@@ -36,7 +36,7 @@ const Magnetic = ({ children }) => {
                 magnetic.current.removeEventListener("mouseleave", handleMouseLeave);
             }
         };
-    }, []);
+    }, [children]);
 
     return React.cloneElement(children, { ref: magnetic });
 };
